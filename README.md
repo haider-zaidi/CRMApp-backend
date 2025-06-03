@@ -68,7 +68,7 @@ node server.js
 
 ### Backend
 ```env
-DATABASE_URL="mongodb+srv://zaidihsn1272:dTw1GoWkdZcbKQ33@crmcluster.nzotlaq.mongodb.net/xeno-crm"
+DATABASE_URL="your url"
 JWT_SECRET="your-secret-key"
 PORT=5000
 GOOGLE_CLIENT_ID=your-client-id
