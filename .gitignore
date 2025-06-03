@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# NPM/Yarn package locks (optional - keep only one if needed)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional cache folders
+.npm/
+.cache/
+
+# Uploaded files (if any for CRMApp)
+uploads/
+
+# Database files (if using local SQLite or similar)
+*.sqlite
+*.db
+
+# Misc
+*.tgz
+*.gz
