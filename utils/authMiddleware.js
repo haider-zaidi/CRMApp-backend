@@ -1,20 +1,3 @@
-// const User = require('../models/User');
-
-// const authenticateUser = async (req, res, next) => {
-//   const userId = req.header('x-user-id');
-
-//   if (!userId) return res.status(401).json({ message: 'Missing user ID header' });
-
-//   const user = await User.findById(userId);
-//   if (!user) return res.status(403).json({ message: 'User not found' });
-
-//   req.user = user;
-//   next();
-// };
-
-// module.exports = authenticateUser;
-
-
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
