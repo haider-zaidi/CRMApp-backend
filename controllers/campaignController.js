@@ -95,7 +95,7 @@ const getCampaigns = async (req, res) => {
   const userId = req.user._id;
 
   try {
-    const campaigns = await Campaign.find({ user: userId }).sort({ createdAt: -1 });
+    const campaigns = await Campaign.find().sort({ createdAt: -1 });
     res.json(campaigns);
   } catch (err) {
     console.error('Get Campaigns Error:', err);
